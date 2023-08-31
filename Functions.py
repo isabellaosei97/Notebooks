@@ -1,3 +1,5 @@
+#Some functions for object detection and analysis from images
+
 from skimage.measure import label, regionprops, regionprops_table
 def largest_bb(maskslist):
 """Computes the largest bounding box in instance segmentation images in order to then isolate each single object in the same resolution
